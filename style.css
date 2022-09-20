@@ -1,0 +1,89 @@
+.container{
+    width: 50vw;
+    height: 70vh;
+    background-color: aquamarine;
+    margin: auto auto;
+    display: flex;
+    border-radius: 5px;
+}
+
+.firtsColumn{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(228, 228, 228);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.secondColumn{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(120, 147, 179);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box-firstColumn{
+    display: flex;
+    flex-direction: column;
+    height: 13%;
+}
+
+.box-firstColumn > label{
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+.box-firstColumn > input{
+    height: 100%;
+
+    border: 0px;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(175, 185, 218);
+    font-size: 2.3rem;
+}
+
+button:hover{
+    background-color: rgb(140, 151, 185);
+    transition: 0.3s;
+}
+
+button:active{
+    background-color: rgb(59, 67, 94);
+}
+
+
+.box-secondColumn{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.final-box-secondColumn{
+    width: 100%;
+    height: 70%; 
+    overflow: auto;
+}
+
+#list{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+    list-style-type: none;
+}

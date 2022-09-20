@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>  
+
+    <div class="container">
+
+        <div class="firtsColumn">
+            <div class="box-firstColumn">
+                <label for="">Insere primeiro número</label>
+                <input id="primaryNumber" type="number">
+            </div>
+
+            <div class="box-firstColumn">
+                <label for="">Insere segundo número</label>
+                <input id="secondNumber" type="number">
+            </div>
+
+            <div class="box-firstColumn">
+                <button class="btnSomar" onclick="btnSomar()">+</button>
+            </div>
+
+            <div class="box-firstColumn">
+                <button class="btnSubtrair" onclick="btnSubtrair()">-</button>
+            </div>
+
+            <div class="box-firstColumn">
+                <button class="btnMultiplicar" onclick="btnMultiplicar()">*</button>
+            </div>
+
+            <div class="box-firstColumn">
+                <button class="btnDividir" onclick="btnDividir()">/</button>
+            </div>             
+        </div>
+
+        <div class="secondColumn">
+            <div class="box-secondColumn">
+                <h1>Resultado</h1>
+                <h2 id="resultFinal"></h2>
+            </div>
+            <div class="final-box-secondColumn">
+                <ul id="list">
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+    <script src="calculadora.js"></script>
+</html>
